@@ -2,7 +2,7 @@ function marcarTareaComoCompletada(tareas, idTarea) {
     for (let i = 0; i < tareas.tarea.length; i++) {
       if (tareas[i].id === idTarea) {
         tareas[i].completada = true;
-        return; 
+        return tareas;
       }
     }
   }
