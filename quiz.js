@@ -13,10 +13,10 @@ function marcarTareaComoCompletada(tareas, idTarea) {
     { id: 2, nombre: 'Sacar la basura', completada: false },
     { id: 3, nombre: 'Estudiar JavaScript', completada: false }
   ];
-   console.log(marcarTareaComoCompletada);
 
-   
-  marcarTareaComoCompletada(tareas, 2);
+
+
+  marcarTareaComoCompletada(tareas, 3);
   
   console.log(tareas);  
   [
